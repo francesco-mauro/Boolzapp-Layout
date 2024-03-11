@@ -11,12 +11,12 @@
 /* COMMONS +++++++++++++++++++++++++++++++++++++*/
 
 .col-small {
-    width: 25%;
+    width: 35%;
     height: 100%;
 }
 
 .col-big {
-    width: 75%;
+    width: 65%;
     height: 100%;
 }
 
@@ -94,15 +94,68 @@
 #user-options {
 
     /* debug */
-    border: 10px solid antiquewhite;
+    background-color: antiquewhite;
 
 }
+
+/* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
+
+
+#user-options {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+#header-user-options {
+
+    /* debug */
+    background-color: pink;
+    height: 7%;
+    max-height: 50px;
+
+}
+
+#notifics {
+
+    /* debug */
+    background-color: black;
+    height: 8%;
+    max-height: 50px;
+
+}
+
+#search {
+
+    /* debug */
+    background-color: lawngreen;
+    height: 5%;
+    max-height: 25px;
+
+}
+
+#contact-list {
+
+    /* debug */
+    background-color: fuchsia;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
 
 /* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
 
 #user-chat {
 
     /* debug */
-    border: 10px solid orange;
+    background-color: orange;
 
 }
