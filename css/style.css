@@ -9,6 +9,18 @@
 
 
 /* COMMONS +++++++++++++++++++++++++++++++++++++*/
+
+.col-small {
+    width: 25%;
+    height: 100%;
+}
+
+.col-big {
+    width: 75%;
+    height: 100%;
+}
+
+
 /* utilities +++++++++++++++++++++++++++++++++++++*/
 
 /* bg colors +++++++++++++++++++++++++++++++++++++*/
@@ -42,7 +54,20 @@
     width: 100vw;
 }
 
-.main-container {}
+.main-container {
+    display: flex;
+    background-color: red;
+    position: absolute;
+    height: 90%;
+    width: 80%;
+
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 50px;
+    min-width: 200px;
+
+}
 
 .back-header {
     height: 10%;
@@ -61,5 +86,23 @@
     border: 1px solid black;
     min-height: 200px;
     min-width: 200px;
+
+}
+
+/* <!-- user options +++++++++++++++++++++++++++++++++++++--> */
+
+#user-options {
+
+    /* debug */
+    border: 10px solid antiquewhite;
+
+}
+
+/* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
+
+#user-chat {
+
+    /* debug */
+    border: 10px solid orange;
 
 }

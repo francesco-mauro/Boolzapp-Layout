@@ -1,0 +1,23 @@
+/* @media screen and (max-width:768px) +++++++++++++++++++++++++++++++++++++ */
+
+/* <!-- <Boolzapp back +++++++++++++++++++++++++++++++++++++ > --> */
+
+@media screen and (max-width:768px) {
+
+    .main-container {
+        height: 100%;
+        width: 100%;
+    
+    }
+}
+
+
+
+
+/* @media screen and (max-width:480px) +++++++++++++++++++++++++++++++++++++ */
+
+/* <!-- <Boolzapp back +++++++++++++++++++++++++++++++++++++ > --> */
+
+@media screen and (max-width:480px) {
+
+}
