@@ -7,8 +7,21 @@
     .main-container {
         height: 100%;
         width: 100%;
-    
+
     }
+
+    /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
+
+    #notifics {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+
+
 }
 
 
@@ -20,4 +33,25 @@
 
 @media screen and (max-width:480px) {
 
+
+    /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
+
+    #user-options {
+        display: none;
+    }
+
+
+    /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
+
+    #notifics {
+        display: none;
+    }
+
+    #search {
+        display: none;
+    }
+
+    #user-chat {
+        width: 100%;
+    }
 }

@@ -23,6 +23,12 @@
 
 /* utilities +++++++++++++++++++++++++++++++++++++*/
 
+/* heights */
+.height-7-p{
+    height: 7%;
+
+}
+
 /* bg colors +++++++++++++++++++++++++++++++++++++*/
 
 .bg-green {
@@ -102,7 +108,6 @@
 
 
 #user-options {
-
     display: flex;
     flex-direction: column;
 
@@ -154,8 +159,31 @@
 /* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
 
 #user-chat {
+    display: flex;
+    flex-direction: column;
 
     /* debug */
     background-color: orange;
 
+}
+
+#header-user-chat {
+
+    /* debug */
+    background-color: blue;
+    height: 7%;
+    max-height: 50px;
+
+}
+
+#messages {
+
+    /* debug */
+    background-color: darkolivegreen;
+    flex-grow: 1;
+
+}
+
+#footer-user-chat {
+background-color: antiquewhite;
 }
