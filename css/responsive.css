@@ -15,9 +15,6 @@
     .pic-block {
         width: 100%;
 
-
-        /* debug */
-        border: 1px solid black;
     }
 
     .overflow-hidden {
@@ -69,6 +66,14 @@
         width: 100%;
 
     }
+
+    /* <!-- header-user-chat +++++++++++++++++++++++++++++++++++++--> */
+
+    #header-user-chat .options-block{
+        display: flex;
+        margin-right: 10px;
+    }
+
 
     /* <!-- footer-user-chat +++++++++++++++++++++++++++++++++++++--> */
 

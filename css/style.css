@@ -29,7 +29,6 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    max-height: 50px;
     min-height: 30px;
     aspect-ratio: 1;
 
@@ -55,10 +54,6 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-
-    /* debug */
-    aspect-ratio: 2;
-    background-color: lightblue;
 
 }
 
@@ -230,7 +225,6 @@
     top: 50%;
     left: 13%;
     transform: translate(-50%, -50%);
-    background-color: lightblue;
     z-index: 999;
 }
 
@@ -246,10 +240,6 @@
 .contact-text {
     display: flex;
     flex-direction: column;
-
-    /* debug */
-    border: 1px solid black;
-    height: 100%;
     min-width: 80%;
 }
 
@@ -260,16 +250,13 @@
     ;
 
     /* debug */
-    border: 1px solid black;
-    height: 100%;
-    min-width: calc(70% - 50px);
+    min-width: calc(85% - 50px);
 }
 
 .contact-text-top {
     display: flex;
 
     /* debug */
-    border: 1px solid black;
     justify-content: space-between;
 
 }
@@ -277,33 +264,13 @@
 .contact-text p {
     padding: 5px;
 
-    /* debug */
-    border: 1px solid black;
-
 }
 
 .contact-text-user-chat p {
     padding: 5px;
 
-    /* debug */
-    border: 1px solid black;
-
 }
 
-.contact-text-top p {
-
-    /* debug */
-    border: 1px solid black;
-
-}
-
-
-.contact-text-bottom {
-
-    /* debug */
-    border: 1px solid black;
-
-}
 
 #contact-list .left-text-block {
     margin: 2px 0;
