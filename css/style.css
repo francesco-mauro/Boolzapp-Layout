@@ -33,9 +33,6 @@
     min-height: 30px;
     aspect-ratio: 1;
 
-    /* debug */
-    background-color: blue;
-    border: 1px solid green;
 }
 
 
@@ -50,7 +47,6 @@
     height: 50px;
     /* debug */
     background-color: pink;
-    border: 1px solid black;
 }
 
 .options-block {
@@ -74,7 +70,7 @@
 }
 
 
-.message{
+.message {
 
     border-radius: 15px;
     /* debug */
@@ -118,11 +114,11 @@
 }
 
 /* text  */
-.text-font-6px{
+.text-font-6px {
     font-size: 6px;
 }
 
-.text-font-12px{
+.text-font-12px {
     font-size: 12px;
 }
 
@@ -136,11 +132,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-
-    /* debug */
-    border: 5px solid black;
     height: 100vh;
-    width: 100%;
 }
 
 .main-container {
@@ -152,29 +144,17 @@
 
 
     /* debug */
-    border: 1px solid black;
-    min-height: 50px;
-    min-width: 200px;
 
 }
 
 .back-header {
     height: 10%;
     width: 100%;
-    /* debug */
-    border: 1px solid black;
-    min-height: 50px;
-    min-width: 200px;
 }
 
 .back-footer {
     height: 90%;
     width: 100%;
-
-    /* debug */
-    border: 1px solid black;
-    min-height: 200px;
-    min-width: 200px;
 
 }
 
@@ -239,13 +219,13 @@
 
 }
 
-#search input{
+#search input {
     align-self: center;
     width: 90%;
     margin: 0 auto;
 }
 
-.lens{
+.lens {
     position: absolute;
     top: 50%;
     left: 13%;
@@ -276,7 +256,8 @@
 .contact-text-user-chat {
     display: flex;
     flex-direction: column;
-    justify-content: center;;
+    justify-content: center;
+    ;
 
     /* debug */
     border: 1px solid black;
@@ -293,7 +274,7 @@
 
 }
 
-.contact-text p{
+.contact-text p {
     padding: 5px;
 
     /* debug */
@@ -301,7 +282,7 @@
 
 }
 
-.contact-text-user-chat p{
+.contact-text-user-chat p {
     padding: 5px;
 
     /* debug */
@@ -309,7 +290,7 @@
 
 }
 
-.contact-text-top p{
+.contact-text-top p {
 
     /* debug */
     border: 1px solid black;
@@ -322,6 +303,10 @@
     /* debug */
     border: 1px solid black;
 
+}
+
+#contact-list .left-text-block {
+    margin: 2px 0;
 }
 
 
@@ -362,7 +347,7 @@
 
 }
 
-#messages{
+#messages {
     display: flex;
     flex-direction: column;
 }
