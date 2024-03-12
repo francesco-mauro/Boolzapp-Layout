@@ -25,6 +25,9 @@
 }
 
 .pic-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     max-height: 50px;
     min-height: 30px;
@@ -35,14 +38,6 @@
     border: 1px solid green;
 }
 
-
-.options-block {
-    height: 100%;
-
-    /* debug */
-    aspect-ratio: 2;
-    background-color: lightblue;
-}
 
 .overflow-hidden {
     overflow: hidden;
@@ -57,9 +52,26 @@
     border: 1px solid black;
 }
 
+.options-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+
+    /* debug */
+    aspect-ratio: 2;
+    background-color: lightblue;
+
+}
 
 
 /* utilities +++++++++++++++++++++++++++++++++++++*/
+/* flex */
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
 
 /* justify content  */
 
@@ -157,9 +169,10 @@
 
 }
 
+.options-block i {
+    padding: 0 5px;
 
-
-#header-user-options {}
+}
 
 #notifics {
 
@@ -185,10 +198,22 @@
 
 .pic-block img {
     border-radius: 50%;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
     object-fit: cover;
 }
+
+.notification-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    background-color: white;
+}
+
 
 #contact-list {
     max-height: 81%;
@@ -215,13 +240,19 @@
 
 }
 
+/* <!-- header-user-chat +++++++++++++++++++++++++++++++++++++--> */
+
+
 #header-user-chat {
+    display: flex;
 
     /* debug */
     background-color: blue;
     height: 50px;
 
 }
+
+
 
 #messages {
 
