@@ -45,6 +45,7 @@
 }
 
 .left-text-block {
+    position: relative;
     display: flex;
     height: 50px;
     /* debug */
@@ -104,6 +105,15 @@
 
 .bg-grey {
     background-color: #d8dbd5;
+}
+
+/* text  */
+.text-font-6px{
+    font-size: 6px;
+}
+
+.text-font-12px{
+    font-size: 12px;
 }
 
 
@@ -187,7 +197,7 @@
     align-items: center;
 
     /* debug */
-    background-color: black;
+    background-color: white;
     height: 70px;
 
 }
@@ -228,21 +238,81 @@
 .lens{
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 13%;
     transform: translate(-50%, -50%);
     background-color: lightblue;
     z-index: 999;
 }
 
+/* <!-- contact-list +++++++++++++++++++++++++++++++++++++ --> */
+
 
 #contact-list {
-    max-height: 81%;
     /* debug */
     background-color: fuchsia;
     flex-grow: 1;
 }
 
+.contact-text {
+    display: flex;
+    flex-direction: column;
 
+    /* debug */
+    border: 1px solid black;
+    height: 100%;
+    min-width: 80%;
+}
+
+.contact-text-user-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+
+    /* debug */
+    border: 1px solid black;
+    height: 100%;
+    min-width: 67%;
+}
+
+.contact-text-top {
+    display: flex;
+
+    /* debug */
+    border: 1px solid black;
+    justify-content: space-between;
+
+}
+
+.contact-text p{
+    padding: 5px;
+
+    /* debug */
+    border: 1px solid black;
+
+}
+
+.contact-text-user-chat p{
+    padding: 5px;
+
+    /* debug */
+    border: 1px solid black;
+
+}
+
+.contact-text-top p{
+
+    /* debug */
+    border: 1px solid black;
+
+}
+
+
+.contact-text-bottom {
+
+    /* debug */
+    border: 1px solid black;
+
+}
 
 
 

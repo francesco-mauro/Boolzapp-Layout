@@ -23,6 +23,10 @@
     .overflow-hidden {
         scrollbar-width: none;
     }
+    
+    .contact-text{
+        display: none;
+    }
 
     /* <!-- user-options +++++++++++++++++++++++++++++++++++++ --> */
 
