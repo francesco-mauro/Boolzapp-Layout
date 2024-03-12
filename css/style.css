@@ -65,6 +65,13 @@
 
 }
 
+.pic-block img {
+    border-radius: 50%;
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+
 
 /* utilities +++++++++++++++++++++++++++++++++++++*/
 /* flex */
@@ -185,23 +192,7 @@
 
 }
 
-/* search +++++++++++++++++++++++++++++++++++++ */
-
-#search {
-
-    /* debug */
-    background-color: lawngreen;
-    height: 5%;
-    max-height: 25px;
-
-}
-
-.pic-block img {
-    border-radius: 50%;
-    max-width: 80%;
-    max-height: 80%;
-    object-fit: cover;
-}
+/* <!-- notifics +++++++++++++++++++++++++++++++++++++--> */
 
 .notification-background {
     display: flex;
@@ -212,6 +203,35 @@
     height: 80%;
     object-fit: cover;
     background-color: white;
+}
+
+
+/* search +++++++++++++++++++++++++++++++++++++ */
+
+#search {
+    display: flex;
+    position: relative;
+
+
+    /* debug */
+    background-color: lawngreen;
+    max-height: 25px;
+
+}
+
+#search input{
+    align-self: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lens{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightblue;
+    z-index: 999;
 }
 
 
