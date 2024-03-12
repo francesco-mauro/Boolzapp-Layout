@@ -1,3 +1,7 @@
+:root {
+    --green-top: #009688;
+  }
+
 /* approccio: desktop first  */
 
 /* RESET  */
@@ -71,7 +75,7 @@
 /* bg colors +++++++++++++++++++++++++++++++++++++*/
 
 .bg-green {
-    background-color: #009688;
+    background-color: var(--green-top)
 }
 
 .bg-red {
