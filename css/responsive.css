@@ -4,22 +4,55 @@
 
 @media screen and (max-width:768px) {
 
+    /* common */
+
     .main-container {
         height: 100%;
         width: 100%;
 
     }
 
+    .pic-block {
+        width: 100%;
+
+
+        /* debug */
+        border: 1px solid black;
+    }
+
+    .overflow-hidden {
+        scrollbar-width: none;
+    }
+
+    /* <!-- user-options +++++++++++++++++++++++++++++++++++++ --> */
+
+    #user-options {
+        width: 60px;
+    }
+
     /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
+
+    .options-block {
+        display: none;
+    }
+
+    /* <!-- notifics +++++++++++++++++++++++++++++++++++++--> */
 
     #notifics {
         display: none;
     }
 
+    /* <!-- search +++++++++++++++++++++++++++++++++++++ --> */
+
+
     #search {
         display: none;
     }
 
+        /* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
+        #user-chat {
+            flex-grow: 1;
+        }
 
 
 }
@@ -32,6 +65,8 @@
 /* <!-- <Boolzapp back +++++++++++++++++++++++++++++++++++++ > --> */
 
 @media screen and (max-width:480px) {
+
+    /* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
 
 
     /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
@@ -54,4 +89,5 @@
     #user-chat {
         width: 100%;
     }
+
 }
