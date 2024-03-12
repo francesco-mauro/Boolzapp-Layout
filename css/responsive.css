@@ -60,16 +60,26 @@
 
     /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
 
-    #header-user-chat .pic-block{
+    #header-user-chat .pic-block {
         width: 50px;
 
     }
 
-    #header-user-chat .contact-text-user-chat{
+    #header-user-chat .contact-text-user-chat {
         width: 100%;
 
     }
 
+    /* <!-- footer-user-chat +++++++++++++++++++++++++++++++++++++--> */
+
+    #footer-user-chat div {
+        display: none;
+    }
+
+    #footer-user-chat input {
+      width: 100%;
+      margin: 0 10px;
+    }
 
 }
 
