@@ -74,6 +74,16 @@
 }
 
 
+.message{
+
+    border-radius: 15px;
+    /* debug */
+    height: 200px;
+    width: 60%;
+    background-color: green;
+}
+
+
 /* utilities +++++++++++++++++++++++++++++++++++++*/
 /* flex */
 
@@ -271,7 +281,7 @@
     /* debug */
     border: 1px solid black;
     height: 100%;
-    min-width: 67%;
+    min-width: calc(70% - 50px);
 }
 
 .contact-text-top {
@@ -342,7 +352,7 @@
 
 }
 
-
+/* <!-- messages +++++++++++++++++++++++++++++++++++++ --> */
 
 #messages {
 
@@ -351,6 +361,23 @@
     flex-grow: 1;
 
 }
+
+#messages{
+    display: flex;
+    flex-direction: column;
+}
+
+#messages .message:first-child {
+    margin: 50px 50px 0 0;
+    align-self: flex-end;
+
+}
+
+#messages .message:nth-child(2) {
+    margin: 10px 0 0 50px;
+
+}
+
 
 #footer-user-chat {
     background-color: antiquewhite;

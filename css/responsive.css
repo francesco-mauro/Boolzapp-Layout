@@ -23,8 +23,8 @@
     .overflow-hidden {
         scrollbar-width: none;
     }
-    
-    .contact-text{
+
+    .contact-text {
         display: none;
     }
 
@@ -53,10 +53,22 @@
         display: none;
     }
 
-        /* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
-        #user-chat {
-            flex-grow: 1;
-        }
+    /* <!-- user chat +++++++++++++++++++++++++++++++++++++--> */
+    #user-chat {
+        flex-grow: 1;
+    }
+
+    /* <!-- header-user-options +++++++++++++++++++++++++++++++++++++--> */
+
+    #header-user-chat .pic-block{
+        width: 50px;
+
+    }
+
+    #header-user-chat .contact-text-user-chat{
+        width: 100%;
+
+    }
 
 
 }
